@@ -16,7 +16,7 @@ jobs:
         uses: ./ #NisargShah1410/gh-docker-demo@v2.1 # Uses an action in the root directory
         id: hello
         with:
-          who-to-greet: 'Mona the Octocat'
+          who-to-greet: 'all attendees from tcs'
       - name: Show WebApp Profile
         shell: bash
         run: |
